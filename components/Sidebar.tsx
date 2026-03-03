@@ -44,9 +44,6 @@ export default function Sidebar({ open, close }: SidebarProps) {
           </Link>
         ))}
       </nav>
-      <div className="sidebarLogoWrap" aria-hidden="true">
-        <img src="/Logo Black.webp" alt="" className="sidebarLogo" />
-      </div>
     </aside>
   );
 }
