@@ -99,7 +99,6 @@ export default function HomePage() {
             frameBorder="0"
             scrolling="no"
             allow="web-share"
-            allowTransparency={true}
             style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
             src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=c557a4&minimal=false&theme=light"
           ></iframe>
