@@ -9,5 +9,6 @@ out
 node_modules
 .next
 out
+.vercel
 .env*
 .DS_Store

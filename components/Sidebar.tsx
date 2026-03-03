@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { SiDiscord, SiFacebook, SiInstagram, SiTiktok, SiX } from 'react-icons/si';
 
 type SidebarProps = {
   open: boolean;
@@ -9,8 +8,12 @@ type SidebarProps = {
 };
 
 const navItems = [
+  ['Merch', 'https://luciofficial.myshopify.com/'],
+  ['Show Tickets', 'https://laylo.com/luci/m/WafCOy'],
+  ['VIP Upgrades', 'https://luciofficial.myshopify.com/products/luci-vip-package'],
+  ['Exclusive Content', 'https://www.passes.com/luci_officialxo'],
   ['Text Me Hotties <3', 'https://laylo.com/luci'],
-  ['Email Me', 'mailto:luciofficialmusic13@gmail.com'],
+  ['Email Me', '/email-me'],
   ['Book Me', '/book-me'],
   ['Links', '/links']
 ];
@@ -18,9 +21,15 @@ const navItems = [
 export default function Sidebar({ open, close }: SidebarProps) {
   return (
     <aside className={`sidebar ${open ? 'open' : ''}`}>
-      <button className="closeBtn" onClick={close} aria-label="Close menu">
-        ✕
-      </button>
+      <div className="sidebarTopBar">
+        <div className="sidebarStatus" aria-live="polite">
+          <span className="statusDot" aria-hidden="true" />
+          <span>Luci is online now</span>
+        </div>
+        <button className="closeBtn" onClick={close} aria-label="Close menu">
+          X
+        </button>
+      </div>
       <nav>
         {navItems.map(([label, href]) => (
           <Link
@@ -35,25 +44,6 @@ export default function Sidebar({ open, close }: SidebarProps) {
           </Link>
         ))}
       </nav>
-      <div className="sidebarFooter">
-        <div className="sidebarSocials">
-          <a href="https://www.instagram.com/luci_official/" target="_blank" rel="noreferrer" aria-label="Instagram">
-            <SiInstagram />
-          </a>
-          <a href="https://www.tiktok.com/@luci.official" target="_blank" rel="noreferrer" aria-label="TikTok">
-            <SiTiktok />
-          </a>
-          <a href="https://x.com/Luci__official" target="_blank" rel="noreferrer" aria-label="X">
-            <SiX />
-          </a>
-          <a href="https://www.facebook.com/Luciofficial" target="_blank" rel="noreferrer" aria-label="Facebook">
-            <SiFacebook />
-          </a>
-          <a href="https://discord.com/invite/hXBavTEghd" target="_blank" rel="noreferrer" aria-label="Discord">
-            <SiDiscord />
-          </a>
-        </div>
-      </div>
     </aside>
   );
 }

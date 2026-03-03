@@ -3,18 +3,18 @@
 import Link from 'next/link';
 import { SiDiscord, SiFacebook, SiInstagram, SiTiktok } from 'react-icons/si';
 
-export default function BookMePage() {
+export default function EmailMePage() {
   return (
     <main className="shell">
-      <section className="mobileWindow bookWindow">
+      <section className="mobileWindow emailWindow">
         <header className="homeLogoSection win98Box h-[160px] sm:h-[190px] md:h-[220px] overflow-hidden">
           <Link href="/" className="logoWrap block w-full h-full" aria-label="Luci home">
             <img src="/Logo White.webp" alt="Luci logo" className="headerLogo w-full h-full object-contain p-3" />
           </Link>
         </header>
 
-        <section className="win98Box bookPanel">
-          <img src="/Hero2.webp" alt="Book Luci" className="bookPhoto" />
+        <section className="win98Box emailPanel">
+          <img src="/Milkshakes3.webp" alt="Email Luci" className="emailPhoto" />
         </section>
 
         <section className="win98Box contactPanel">
@@ -22,12 +22,8 @@ export default function BookMePage() {
             <span className="mediaPlayerDot" aria-hidden="true" />
             <span>E-Mail</span>
           </div>
-          <a className="contactBox" href="mailto:Brian@abtouring.com" target="_self">
-            <span className="emailValue">Brian@abtouring.com</span>
-          </a>
-
-          <a className="contactBox" href="mailto:Alex@abtouring.com" target="_self">
-            <span className="emailValue">Alex@abtouring.com</span>
+          <a className="contactBox" href="mailto:luciofficialmusic13@gmail.com" target="_self">
+            <span className="emailValue">luciofficialmusic13@gmail.com</span>
           </a>
         </section>
 
@@ -49,13 +45,13 @@ export default function BookMePage() {
         </footer>
 
         <style jsx>{`
-          .bookWindow {
+          .emailWindow {
             display: flex;
             flex-direction: column;
             min-height: calc(100vh - 1.5rem);
           }
 
-          .bookPanel {
+          .emailPanel {
             margin: 0.75rem;
             padding: 0.6rem;
           }
@@ -87,13 +83,15 @@ export default function BookMePage() {
             filter: invert(1);
           }
 
-          .bookPhoto {
+          .emailPhoto {
             display: block;
             width: 100%;
             max-width: 420px;
-            height: auto;
+            height: clamp(260px, 62vw, 360px);
             margin: 0 auto;
             border: 2px inset #fff;
+            object-fit: cover;
+            object-position: center 70%;
           }
 
           .contactPanel {
@@ -166,7 +164,7 @@ export default function BookMePage() {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 0.2rem;
+            gap: 0.95rem;
             width: 100%;
             margin: 0 auto;
             padding: 0 0.5rem;

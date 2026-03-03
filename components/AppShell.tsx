@@ -33,6 +33,16 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <AppShellContext.Provider value={value}>
+      <button
+        className={`hamburger viewportHamburger fixed top-4 right-4 ${sidebarOpen ? 'invisible' : ''}`}
+        onClick={value.openSidebar}
+        aria-label="Open menu"
+        aria-expanded={sidebarOpen}
+      >
+        <span />
+        <span />
+        <span />
+      </button>
       <Sidebar open={sidebarOpen} close={value.closeSidebar} />
       {sidebarOpen && <div className="overlay" onClick={value.closeSidebar} />}
       {children}
