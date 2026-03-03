@@ -22,7 +22,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <AppShell>{children}</AppShell>
+        <div className="p-6 md:p-0">
+          <AppShell>{children}</AppShell>
+        </div>
       </body>
     </html>
   );
