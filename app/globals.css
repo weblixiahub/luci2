@@ -135,6 +135,8 @@ body {
   top: 0;
   width: min(94vw, 420px);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: #ffdaef;
   border-left: 3px solid #fff6fc;
   transition: right 0.25s ease;
@@ -207,6 +209,17 @@ body {
 }
 .menuItem { display:block; color:#000; text-decoration:none; padding:1rem; margin-top:0; border:2px solid #ffc3e4; background:#ffe6f6; font-family: var(--font-pixel), monospace; font-size:1.08rem; white-space: nowrap; transition: transform 0.15s ease, color 0.15s ease; }
 .menuItem:hover { transform: scale(1.03); color:#000; }
+.sidebarLogoWrap {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+.sidebarLogo {
+  width: min(64%, 210px);
+  height: auto;
+  display: block;
+}
 .sidebarFooter {
   margin-top: 1rem;
   padding-top: 0.8rem;
