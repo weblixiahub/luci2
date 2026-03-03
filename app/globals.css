@@ -1,4 +1,7 @@
 :root {
+  --font-orbitron: "Trebuchet MS";
+  --font-pixel: "Courier New";
+  --font-cute: "Brush Script MT";
   --bg: #14001f;
   --neon: #ff2dcf;
   --accent: #6ffff7;

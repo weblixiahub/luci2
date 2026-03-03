@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const groups = {
   Socials: [
-    ['Instagram', 'https://instagram.com'],
-    ['TikTok', 'https://tiktok.com'],
-    ['X / Twitter', 'https://x.com']
+    ['Instagram', 'https://instagram.com/lucimusic'],
+    ['TikTok', 'https://tiktok.com/@lucimusic'],
+    ['X / Twitter', 'https://x.com/lucimusic']
   ],
   Listen: [
     ['Spotify', 'https://open.spotify.com'],

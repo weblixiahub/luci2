@@ -1,2 +1,703 @@
-[00:00:00.365] Server  LOG     ✓ Ready in 236ms
-[00:00:01.106] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.527] Server  LOG     ✓ Ready in 330ms
+[00:00:01.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:40.499] Server  LOG     ✓ Compiled in 31ms
+[00:02:43.983] Server  LOG     ✓ Compiled in 19ms
+[00:02:59.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:02.235] Server  LOG     ✓ Compiled in 4ms
+[00:05:25.938] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.939] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.940] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.942] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.944] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.945] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.946] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.946] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.947] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.948] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.949] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.949] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.950] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.951] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.951] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.952] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.953] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.954] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.955] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.955] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.957] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.957] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.958] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.959] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.960] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.961] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.961] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.962] Server  ERROR   ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:25.968] Server  LOG     ✓ Compiled in 89ms
+[00:05:26.404] Browser ERROR   ./app/page.tsx:6:1
+Module not found: Can't resolve './components/Sidebar'
+  4 | import Link from 'next/link';
+  5 | import Script from 'next/script';
+> 6 | import { Sidebar } from './components/Sidebar';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const listenLinks = [
+  9 |   ['Spotify', 'https://open.spotify.com', '🎧'],
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:08:42.586] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:46.794] Server  LOG     ✓ Compiled in 24ms
+[00:10:13.412] Server  LOG     ✓ Compiled in 17ms
+[00:10:14.399] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. allowTransparency allowtransparency

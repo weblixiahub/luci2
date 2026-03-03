@@ -101,7 +101,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/alecjwilliams",
+    "outputFileTracingRoot": "/Users/alecjwilliams/luci2",
     "cacheComponents": false,
     "cacheLife": {
       "default": {
@@ -294,12 +294,12 @@ self.__SERVER_FILES_MANIFEST={
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
     "turbopack": {
-      "root": "/Users/alecjwilliams"
+      "root": "/Users/alecjwilliams/luci2"
     },
     "distDirRoot": ".next"
   },
   "appDir": "/Users/alecjwilliams/luci2",
-  "relativeAppDir": "luci2",
+  "relativeAppDir": "",
   "files": [
     ".next/routes-manifest.json",
     ".next/server/pages-manifest.json",
