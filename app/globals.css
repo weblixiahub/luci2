@@ -211,17 +211,19 @@ body {
 .menuItem:hover { transform: scale(1.03); color:#000; }
 .sidebarLogoWrap {
   margin-top: auto;
-  padding: 0.6rem 0 0.35rem;
+  padding: 0.45rem 0 0.25rem;
   display: flex;
   justify-content: center;
 }
 .sidebarLogo {
-  width: min(82vw, 300px);
-  max-height: 92px;
+  width: min(62vw, 220px);
+  max-height: 64px;
   height: auto;
   display: block;
   object-fit: contain;
-  mix-blend-mode: screen;
+  background: transparent;
+  mix-blend-mode: lighten;
+  filter: contrast(1.05);
   pointer-events: none;
 }
 .sidebarFooter {

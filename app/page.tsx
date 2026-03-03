@@ -102,17 +102,19 @@ export default function HomePage() {
             onReady={() => setLayloReady(true)}
           ></Script>
           {layloReady && (
-            <iframe
-              id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887"
-              title="Luci Tour Dates"
-              frameBorder="0"
-              scrolling="no"
-              allow="web-share"
-              {...({ allowtransparency: 'true' } as Record<string, string>)}
-              className="layloEmbed"
-              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
-              src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
-            ></iframe>
+            <div className="layloClip">
+              <iframe
+                id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887"
+                title="Luci Tour Dates"
+                frameBorder="0"
+                scrolling="no"
+                allow="web-share"
+                {...({ allowtransparency: 'true' } as Record<string, string>)}
+                className="layloEmbed"
+                style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
+                src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
+              ></iframe>
+            </div>
           )}
         </section>
 
@@ -248,6 +250,14 @@ export default function HomePage() {
 
           .socialIcon {
             line-height: 1;
+          }
+
+          .layloClip {
+            border-top-left-radius: 2.25rem;
+            border-top-right-radius: 2.25rem;
+            border-bottom-left-radius: 3rem;
+            border-bottom-right-radius: 3rem;
+            overflow: hidden;
           }
         `}</style>
       </section>
