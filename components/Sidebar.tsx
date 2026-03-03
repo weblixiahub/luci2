@@ -47,9 +47,9 @@ export default function Sidebar({ open, close }: SidebarProps) {
             ))}
           </nav>
         </div>
-        <div className="sidebarLogoWrap" aria-hidden="true">
-          <img src="/Logo White.webp" alt="" className="sidebarLogo" />
-        </div>
+        <Link href="/" onClick={close} className="sidebarLogoWrap" aria-label="Luci home">
+          <img src="/Logo White.webp" alt="Luci logo" className="sidebarLogo" />
+        </Link>
       </div>
     </aside>
   );
