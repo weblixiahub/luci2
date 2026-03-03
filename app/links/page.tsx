@@ -50,7 +50,7 @@ const groups: Record<string, LinkItem[]> = {
     { label: 'Email Me', href: 'mailto:luciofficialmusic13@gmail.com' },
     { label: 'Book Me', href: 'mailto:Brian@abtouring.com,Alex@abtouring.com' }
   ],
-  Extra: [
+  Extras: [
     { label: 'Linktree', href: 'https://linktr.ee/Luci_official' }
   ]
 };
