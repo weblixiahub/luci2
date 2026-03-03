@@ -1,202 +1,255 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SLUTBASS :: Luci</title>
-  <style>
-    :root {
-      --neon-pink: #c557a4;
-      --black: #000000;
-      --white: #ffffff;
-      --border-light: #f3a5d5;
-      --border-dark: #5a003f;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: "Tahoma", "Verdana", sans-serif;
-      color: var(--white);
-      background:
-        radial-gradient(circle at 15% 20%, rgba(197, 87, 164, 0.35), transparent 28%),
-        radial-gradient(circle at 84% 76%, rgba(197, 87, 164, 0.25), transparent 30%),
-        linear-gradient(180deg, #0a0008, #000000);
-      background-color: var(--black);
-      line-height: 1.4;
-    }
-
-    .shell {
-      width: min(100%, 500px);
-      margin: 0 auto;
-      padding: 12px 10px 24px;
-    }
-
-    .window {
-      border: 2px solid;
-      border-color: var(--border-light) var(--border-dark) var(--border-dark) var(--border-light);
-      background: #12000f;
-      box-shadow: 0 0 16px rgba(197, 87, 164, 0.5), inset 0 0 0 1px #ffbce3;
-      margin-bottom: 14px;
-    }
-
-    .titlebar {
-      background: linear-gradient(90deg, #c557a4 0%, #6e114d 100%);
-      border-bottom: 1px solid #ffc5ea;
-      color: #fff;
-      font-weight: 700;
-      letter-spacing: 0.6px;
-      padding: 6px 10px;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-    }
-
-    .window-body {
-      padding: 12px;
-      background: repeating-linear-gradient(
-        0deg,
-        rgba(197, 87, 164, 0.05),
-        rgba(197, 87, 164, 0.05) 2px,
-        transparent 2px,
-        transparent 4px
-      );
-    }
-
-    .logo {
-      width: 100%;
-      display: block;
-      margin: 0 auto 10px;
-      image-rendering: auto;
-    }
-
-    .hero {
-      width: 100%;
-      border: 2px solid;
-      border-color: #ffc5ea #6e114d #6e114d #ffc5ea;
-      display: block;
-      margin-bottom: 10px;
-    }
-
-    .tag {
-      display: inline-block;
-      padding: 4px 10px;
-      border: 1px solid #ffaddd;
-      background: #3c012a;
-      color: #ffd6f0;
-      font-size: 0.8rem;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-    }
-
-    p {
-      margin: 0;
-      font-size: 0.96rem;
-    }
-
-    .laylo-wrap {
-      margin-top: 12px;
-      border: 1px dashed #ffb9e4;
-      padding: 8px;
-      background: #1b0015;
-    }
-
-    .sidebar-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 8px;
-    }
-
-    .sidebar-list a {
-      display: block;
-      text-decoration: none;
-      color: #ffe1f4;
-      background: linear-gradient(180deg, #430430, #220118);
-      border: 2px solid;
-      border-color: #ffbde6 #640c47 #640c47 #ffbde6;
-      padding: 8px 10px;
-      font-weight: 700;
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      letter-spacing: 0.4px;
-    }
-
-    .sidebar-list a:hover,
-    .sidebar-list a:focus {
-      background: linear-gradient(180deg, #c557a4, #7d1a58);
-      color: #fff;
-    }
-
-    .blink {
-      animation: blink 1s steps(2, start) infinite;
-    }
-
-    @keyframes blink {
-      to {
-        visibility: hidden;
-      }
-    }
-
-    .footer {
-      text-align: center;
-      font-size: 0.78rem;
-      color: #ffc4e9;
-    }
-
-    @media (min-width: 700px) {
-      .shell {
-        padding-top: 24px;
-      }
-
-      p {
-        font-size: 1rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <main class="shell">
-    <section class="window">
-      <div class="titlebar">SLUTBASS.EXE <span class="blink">● LIVE</span></div>
-      <div class="window-body">
-        <img class="logo" src="public/Logo White.webp" alt="SLUTBASS logo" />
-        <img class="hero" src="public/Hero.webp" alt="Luci performing" />
-        <span class="tag">Y2K Club-Rat Signal</span>
-        <p>Luci is an LGBTQIA+ artist who defies easy categorization. After years in the bass world, she found her home by creating SLUTBASS — an experimental bass + hyperpop project that’s flirty, bratty, and loud club music made to make the crowd jump, move, and feel hot as f*ck! Built on heavy drops, playful vocals, distorted pop hooks, and nasty basslines, her high-energy sets are pure slutty club-rat chaos. This isn’t an era. Cunt is here to stay.</p>
-        <div class="laylo-wrap">
-          <script src="https://embed.laylo.com/laylo-sdk.js"></script>
-
-<iframe id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887" frameborder="0" scrolling="no" allow="web-share" allowtransparency="true" style="width: 1px; min-width: 100%; max-width: 1000px" src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=c557a4&minimal=false&theme=light"></iframe>
-        </div>
-      </div>
-    </section>
-
-    <aside class="window">
-      <div class="titlebar">Hot Links</div>
-      <div class="window-body">
-        <nav aria-label="Sidebar navigation">
-          <ul class="sidebar-list">
-            <li><a href="#">Merch</a></li>
-            <li><a href="#">Show Tickets</a></li>
-            <li><a href="#">VIP Upgrades</a></li>
-            <li><a href="#">Exclusive Content</a></li>
-            <li><a href="#">Text Me Hotties &lt;3</a></li>
-            <li><a href="#">Email Me</a></li>
-            <li><a href="#">Book Me</a></li>
-            <li><a href="#">Links</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Booking</a></li>
-          </ul>
-        </nav>
-      </div>
-    </aside>
-
-    <footer class="footer">© SLUTBASS // Neon chaos for the dance floor.</footer>
-  </main>
-</body>
-</html>
+ (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
+diff --git a/index.html b/index.html
+index b9b6edc8a568b0bc060dcaaf0fddf6b419b5c039..00e61bae3a0e76d147bf8a989adb56cbb985de1f 100644
+--- a/index.html
++++ b/index.html
+@@ -1 +1,245 @@
+-Coming Soon
++<!DOCTYPE html>
++<html lang="en">
++<head>
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++  <title>SLUTBASS // Luci</title>
++  <style>
++    :root {
++      --pink: #c557a4;
++      --pink-lite: #ffbde6;
++      --pink-deep: #630b47;
++      --bg: #000;
++      --panel: #12000f;
++      --ink: #fff;
++    }
++
++    * { box-sizing: border-box; }
++
++    body {
++      margin: 0;
++      font-family: Tahoma, Verdana, Arial, sans-serif;
++      color: var(--ink);
++      background:
++        radial-gradient(circle at 8% 10%, rgba(197, 87, 164, 0.34), transparent 28%),
++        radial-gradient(circle at 90% 84%, rgba(197, 87, 164, 0.26), transparent 34%),
++        #000;
++      line-height: 1.42;
++    }
++
++    .page {
++      width: min(100%, 500px);
++      margin: 0 auto;
++      padding: 10px 8px 28px;
++    }
++
++    .xp-window {
++      background: var(--panel);
++      border: 2px solid;
++      border-color: var(--pink-lite) var(--pink-deep) var(--pink-deep) var(--pink-lite);
++      box-shadow: 0 0 0 1px #ffd7f1 inset, 0 0 18px rgba(197, 87, 164, 0.45);
++      margin-bottom: 12px;
++    }
++
++    .xp-title {
++      padding: 6px 10px;
++      font-size: 12px;
++      font-weight: 700;
++      text-transform: uppercase;
++      letter-spacing: 0.7px;
++      border-bottom: 1px solid #ffc9eb;
++      background: linear-gradient(90deg, var(--pink) 0%, #7b1b57 62%, #52103a 100%);
++      display: flex;
++      justify-content: space-between;
++      align-items: center;
++    }
++
++    .dot {
++      display: inline-block;
++      width: 11px;
++      height: 11px;
++      border-radius: 50%;
++      background: #ffdbf2;
++      box-shadow: 0 0 8px #fff;
++      animation: blink 1s steps(2, start) infinite;
++    }
++
++    @keyframes blink {
++      to { opacity: 0.3; }
++    }
++
++    .xp-body {
++      padding: 10px;
++      background: repeating-linear-gradient(
++        0deg,
++        rgba(197, 87, 164, 0.055),
++        rgba(197, 87, 164, 0.055) 2px,
++        transparent 2px,
++        transparent 4px
++      );
++    }
++
++    .logo {
++      width: 100%;
++      margin-bottom: 8px;
++      display: block;
++    }
++
++    .hero {
++      width: 100%;
++      display: block;
++      border: 2px solid;
++      border-color: var(--pink-lite) var(--pink-deep) var(--pink-deep) var(--pink-lite);
++      margin-bottom: 8px;
++    }
++
++    .bio {
++      margin: 0;
++      font-size: 0.95rem;
++    }
++
++    .laylo {
++      margin-top: 10px;
++      border: 1px dashed #ffb5e2;
++      background: #1b0015;
++      padding: 8px;
++    }
++
++    .groups {
++      display: grid;
++      gap: 10px;
++    }
++
++    .group {
++      border: 2px solid;
++      border-color: #ffa6dd #640c47 #640c47 #ffa6dd;
++      background: #190014;
++      padding: 8px;
++    }
++
++    .group h3 {
++      margin: 0 0 6px;
++      font-size: 0.8rem;
++      text-transform: uppercase;
++      letter-spacing: 0.6px;
++      color: #ffd8f0;
++    }
++
++    .group ul {
++      list-style: none;
++      margin: 0;
++      padding: 0;
++      display: grid;
++      gap: 6px;
++    }
++
++    a.link {
++      display: block;
++      color: #ffe6f5;
++      text-decoration: none;
++      font-weight: 700;
++      text-transform: uppercase;
++      letter-spacing: 0.35px;
++      font-size: 0.84rem;
++      padding: 7px 9px;
++      border: 2px solid;
++      border-color: #ffbde6 #620d46 #620d46 #ffbde6;
++      background: linear-gradient(180deg, #470433, #230119);
++    }
++
++    a.link:hover,
++    a.link:focus {
++      background: linear-gradient(180deg, var(--pink), #771f58);
++      color: #fff;
++    }
++
++    .sidebar ul {
++      list-style: none;
++      margin: 0;
++      padding: 0;
++      display: grid;
++      gap: 7px;
++    }
++
++    .footer {
++      text-align: center;
++      font-size: 0.76rem;
++      color: #ffc5e9;
++      margin-top: 2px;
++    }
++  </style>
++</head>
++<body>
++  <main class="page">
++    <section class="xp-window">
++      <div class="xp-title"><span>SLUTBASS.EXE</span><span class="dot" aria-hidden="true"></span></div>
++      <div class="xp-body">
++        <img src="public/Logo White.webp" alt="SLUTBASS logo" class="logo" />
++        <img src="public/Hero.webp" alt="Luci performance portrait" class="hero" />
++        <p class="bio">Luci is an LGBTQIA+ artist who defies easy categorization. After years in the bass world, she found her home by creating SLUTBASS — an experimental bass + hyperpop project that’s flirty, bratty, and loud club music made to make the crowd jump, move, and feel hot as f*ck! Built on heavy drops, playful vocals, distorted pop hooks, and nasty basslines, her high-energy sets are pure slutty club-rat chaos. This isn’t an era. Cunt is here to stay.</p>
++        <div class="laylo">
++          <script src="https://embed.laylo.com/laylo-sdk.js"></script>
++
++<iframe id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887" frameborder="0" scrolling="no" allow="web-share" allowtransparency="true" style="width: 1px; min-width: 100%; max-width: 1000px" src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=c557a4&minimal=false&theme=light"></iframe>
++        </div>
++      </div>
++    </section>
++
++    <section class="xp-window">
++      <div class="xp-title"><span>Links</span><span>Y2K Portal</span></div>
++      <div class="xp-body groups">
++        <div class="group">
++          <h3>Socials</h3>
++          <ul>
++            <li><a class="link" href="#">Instagram</a></li>
++            <li><a class="link" href="#">TikTok</a></li>
++            <li><a class="link" href="#">X / Twitter</a></li>
++          </ul>
++        </div>
++        <div class="group">
++          <h3>Listen</h3>
++          <ul>
++            <li><a class="link" href="#">Spotify</a></li>
++            <li><a class="link" href="#">Apple Music</a></li>
++            <li><a class="link" href="#">SoundCloud</a></li>
++          </ul>
++        </div>
++        <div class="group">
++          <h3>Watch</h3>
++          <ul>
++            <li><a class="link" href="#">YouTube</a></li>
++            <li><a class="link" href="#">Live Clips</a></li>
++          </ul>
++        </div>
++        <div class="group">
++          <h3>Extra</h3>
++          <ul>
++            <li><a class="link" href="#">Fan Club</a></li>
++            <li><a class="link" href="#">Media Kit</a></li>
++          </ul>
++        </div>
++      </div>
++    </section>
++
++    <aside class="xp-window sidebar">
++      <div class="xp-title"><span>Sidebar</span><span>Quick Access</span></div>
++      <div class="xp-body">
++        <ul>
++          <li><a class="link" href="#">Merch</a></li>
++          <li><a class="link" href="#">Show Tickets</a></li>
++          <li><a class="link" href="#">VIP Upgrades</a></li>
++          <li><a class="link" href="#">Exclusive Content</a></li>
++          <li><a class="link" href="#">Text Me Hotties &lt;3</a></li>
++          <li><a class="link" href="#">Email Me</a></li>
++          <li><a class="link" href="#">Book Me</a></li>
++          <li><a class="link" href="#">Links</a></li>
++          <li><a class="link" href="#">Press</a></li>
++          <li><a class="link" href="#">Booking</a></li>
++        </ul>
++      </div>
++    </aside>
++
++    <div class="footer">© SLUTBASS // Pinkii-era chaos.</div>
++  </main>
++</body>
++</html>
+ 
+EOF
+)
