@@ -1,0 +1,12 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/luci2/app/page": [
+      "static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2",
+      "static/media/de161955856a921d-s.p.25da2b95.woff2",
+      "static/media/45215cb2a6b5c3af-s.p.1d0bc7cc.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

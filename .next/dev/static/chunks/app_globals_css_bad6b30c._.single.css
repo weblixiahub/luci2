@@ -1,0 +1,291 @@
+/* [project]/app/globals.css [app-client] (css) */
+:root {
+  --bg: #14001f;
+  --neon: #ff2dcf;
+  --accent: #6ffff7;
+  --panel: #2b093d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-orbitron), sans-serif;
+  color: #fff;
+  background: radial-gradient(circle at top, #50006e 0%, #120018 55%, #000 100%);
+  margin: 0;
+}
+
+.shell {
+  justify-content: center;
+  min-height: 100vh;
+  padding: .75rem;
+  display: flex;
+}
+
+.mobileWindow {
+  background: linear-gradient(#36134c 0%, #1e042d 100%);
+  border: 3px solid #d1c8e4;
+  width: 100%;
+  max-width: 460px;
+  box-shadow: 0 0 0 3px #6e5f8f, 0 0 40px #ff2dcf99;
+}
+
+.topBar {
+  background: linear-gradient(#9db6ff, #5363ad);
+  border-bottom: 3px solid #1f2458;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  display: flex;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+.hamburger {
+  background: #d8d8e8;
+  border: 2px outset #f1f1fb;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 42px;
+  height: 34px;
+  display: flex;
+}
+
+.hamburger span {
+  background: #252962;
+  height: 3px;
+  margin: 0 6px;
+}
+
+.hero {
+  border-bottom: 2px solid #6f5e8d;
+  width: 100%;
+  display: block;
+}
+
+.bioPanel {
+  border-bottom: 2px dashed #a96ce3;
+  padding: 1rem;
+}
+
+.bioPanel h1 {
+  font-family: var(--font-pixel), monospace;
+  color: var(--accent);
+  margin: 0 0 .7rem;
+  font-size: 1rem;
+}
+
+.bioPanel p {
+  font-family: var(--font-cute), cursive;
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.mediaPanel, .tourPanel {
+  padding: 1rem;
+}
+
+.toggleRow {
+  font-family: var(--font-pixel), monospace;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.toggleRow button {
+  color: #331146;
+  background: #ead8ff;
+  border: 2px outset #fff;
+  padding: .45rem .7rem;
+  font-family: inherit;
+}
+
+.toggleRow button.active {
+  background: #ff9ce9;
+}
+
+.linkGrid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: .55rem;
+  margin-top: 1rem;
+  display: grid;
+}
+
+.mediaLink {
+  color: #fff;
+  text-align: center;
+  background: #180525cc;
+  border: 2px solid #9cb4ff;
+  padding: .6rem;
+  font-size: .8rem;
+  text-decoration: none;
+}
+
+.mediaLink span {
+  margin-bottom: .25rem;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.tourPanel h2 {
+  font-family: var(--font-pixel), monospace;
+  margin: 0 0 .6rem;
+  font-size: 1rem;
+}
+
+.layloEmbed {
+  background: #fff;
+  border: 2px inset #beb3d7;
+  min-height: 140px;
+}
+
+.footer {
+  background: #170025;
+  border-top: 3px solid #7e6aa7;
+  justify-content: space-between;
+  align-items: center;
+  padding: .8rem;
+  display: flex;
+}
+
+.footerLogo {
+  width: auto;
+  height: 32px;
+}
+
+.socials a {
+  color: var(--accent);
+  font-family: var(--font-pixel), monospace;
+  margin-left: .75rem;
+  font-size: .7rem;
+  text-decoration: none;
+}
+
+.overlay {
+  z-index: 20;
+  background: #00000073;
+  position: fixed;
+  inset: 0;
+}
+
+.sidebar {
+  z-index: 30;
+  background: #180126;
+  border-left: 3px solid #9cb4ff;
+  width: 310px;
+  max-width: 88vw;
+  height: 100vh;
+  padding: 1rem;
+  transition: right .25s;
+  position: fixed;
+  top: 0;
+  right: -330px;
+  overflow-y: auto;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.closeBtn {
+  background: #eee1ff;
+  border: 2px outset #fff;
+  width: 32px;
+  height: 32px;
+  margin-left: auto;
+  display: block;
+}
+
+.menuItem {
+  color: #fff;
+  font-family: var(--font-pixel), monospace;
+  background: #29093d;
+  border: 2px solid #7354a4;
+  margin-top: .45rem;
+  padding: .55rem;
+  font-size: .66rem;
+  text-decoration: none;
+  display: block;
+}
+
+.menuCards {
+  gap: .7rem;
+  margin-top: .8rem;
+  display: grid;
+}
+
+.imageCard {
+  border: 2px solid #95abff;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.imageCard img {
+  width: 100%;
+  display: block;
+}
+
+.imageCard span {
+  color: #fff;
+  font-family: var(--font-pixel), monospace;
+  background: #000000b3;
+  padding: .3rem;
+  font-size: .6rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.backBtn {
+  color: #30164f;
+  font-family: var(--font-pixel), monospace;
+  background: #ead8ff;
+  border: 2px outset #fff;
+  padding: .45rem .6rem;
+  font-size: .6rem;
+  text-decoration: none;
+}
+
+.linksPage {
+  min-height: 100vh;
+}
+
+.linksTitle {
+  font-family: var(--font-pixel), monospace;
+  text-align: center;
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+.linkGroup {
+  padding: 0 1rem .7rem;
+}
+
+.linkGroup h2 {
+  font-family: var(--font-pixel), monospace;
+  color: #ff9ce9;
+  font-size: .75rem;
+}
+
+@media (min-width: 920px) {
+  .shell {
+    padding: 1.5rem 0;
+  }
+
+  .mobileWindow {
+    transform-origin: top;
+    transform: scale(1.06);
+  }
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

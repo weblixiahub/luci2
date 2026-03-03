@@ -1,0 +1,32 @@
+{
+  "name": "luci2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weblixiahub/luci2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/weblixiahub/luci2/issues"
+  },
+  "homepage": "https://luci2-beige.vercel.app"
+}
