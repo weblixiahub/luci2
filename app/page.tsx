@@ -252,7 +252,6 @@ export default function HomePage() {
             border-bottom-left-radius: 3.5rem;
             border-bottom-right-radius: 3.5rem;
             overflow: hidden;
-            background: #f08cc7;
           }
 
           .layloClip :global(.layloEmbed) {
