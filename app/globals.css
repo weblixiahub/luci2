@@ -58,8 +58,8 @@ body {
 .logoWrap { display: block; }
 .pageHeader { margin: 0.6rem; }
 .headerLogo { width: min(56vw, 240px); height: auto; display: block; }
-.hamburger { background:#ffd8ef; border:4px solid #000; width:63px; height:51px; display:flex; flex-direction:column; justify-content:center; gap:6px; padding:0 10px; }
-.hamburger span { display:block; width:100%; height:4px; background:#000; margin:0; }
+.hamburger { background:#ffd8ef; border:3px solid #000; width:52px; height:42px; display:flex; flex-direction:column; justify-content:center; gap:5px; padding:0 8px; }
+.hamburger span { display:block; width:100%; height:3px; background:#000; margin:0; }
 .viewportHamburger {
   position: fixed;
   top: 1rem;
