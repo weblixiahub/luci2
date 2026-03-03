@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import Script from 'next/script';
-import { useState } from 'react';
 import type { IconType } from 'react-icons';
 import { SiApplemusic, SiDiscord, SiFacebook, SiInstagram, SiSoundcloud, SiSpotify, SiTiktok, SiTwitch, SiYoutube } from 'react-icons/si';
 
@@ -34,8 +33,6 @@ const watchLinks: MediaItem[] = [
 ];
 
 export default function HomePage() {
-  const [layloReady, setLayloReady] = useState(false);
-
   return (
     <main className="shell">
       <section className="mobileWindow">
@@ -99,23 +96,20 @@ export default function HomePage() {
           <Script
             src="https://embed.laylo.com/laylo-sdk.js"
             strategy="afterInteractive"
-            onReady={() => setLayloReady(true)}
           ></Script>
-          {layloReady && (
-            <div className="layloClip">
-              <iframe
-                id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887"
-                title="Luci Tour Dates"
-                frameBorder="0"
-                scrolling="no"
-                allow="web-share"
-                {...({ allowtransparency: 'true' } as Record<string, string>)}
-                className="layloEmbed"
-                style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
-                src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
-              ></iframe>
-            </div>
-          )}
+          <div className="layloClip">
+            <iframe
+              id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887"
+              title="Luci Tour Dates"
+              frameBorder="0"
+              scrolling="no"
+              allow="web-share"
+              {...({ allowtransparency: 'true' } as Record<string, string>)}
+              className="layloEmbed"
+              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
+              src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
+            ></iframe>
+          </div>
         </section>
 
         <footer className="footer win98Box" id="booking">
@@ -255,9 +249,17 @@ export default function HomePage() {
           .layloClip {
             border-top-left-radius: 2.25rem;
             border-top-right-radius: 2.25rem;
-            border-bottom-left-radius: 3rem;
-            border-bottom-right-radius: 3rem;
+            border-bottom-left-radius: 3.5rem;
+            border-bottom-right-radius: 3.5rem;
             overflow: hidden;
+            background: #f08cc7;
+          }
+
+          .layloClip :global(.layloEmbed) {
+            display: block;
+            border: 0;
+            background: transparent;
+            min-height: 620px;
           }
         `}</style>
       </section>
