@@ -209,6 +209,21 @@ body {
 }
 .menuItem { display:block; color:#000; text-decoration:none; padding:1rem; margin-top:0; border:2px solid #ffc3e4; background:#ffe6f6; font-family: var(--font-pixel), monospace; font-size:1.08rem; white-space: nowrap; transition: transform 0.15s ease, color 0.15s ease; }
 .menuItem:hover { transform: scale(1.03); color:#000; }
+.sidebarLogoWrap {
+  margin-top: auto;
+  padding: 0.6rem 0 0.35rem;
+  display: flex;
+  justify-content: center;
+}
+.sidebarLogo {
+  width: min(52vw, 160px);
+  max-height: 44px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
 .sidebarFooter {
   margin-top: 1rem;
   padding-top: 0.8rem;
