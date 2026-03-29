@@ -316,21 +316,21 @@ body {
 
 @media (min-width: 920px) {
   .homeContentWindow {
-    max-width: 880px;
+    max-width: 700px;
   }
 
   .homeContentWindow .win98Box {
-    margin: 0.45rem;
+    margin: 0.35rem;
   }
 
   .homeContentWindow .bioPanel,
   .homeContentWindow .mediaPanel,
   .homeContentWindow .tourPanel {
-    padding: 0.85rem;
+    padding: 0.72rem;
   }
 
   .homeContentWindow .footer {
-    padding: 0.7rem;
+    padding: 0.6rem;
   }
 
   .desktopHomeNav {
