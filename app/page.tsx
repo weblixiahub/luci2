@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Script from 'next/script';
 import type { IconType } from 'react-icons';
+import { FaShoppingBag } from 'react-icons/fa';
 import { SiApplemusic, SiDiscord, SiFacebook, SiInstagram, SiSoundcloud, SiSpotify, SiTiktok, SiTwitch, SiYoutube } from 'react-icons/si';
 
 type MediaItem = {
@@ -54,8 +55,8 @@ export default function HomePage() {
             <span>about.txt</span>
           </div>
           <p>
-            Welcome to Luci. <span className="noWrap">Cunt is here to stay.</span> Hit the tour dates below and come
-            get loud with us.
+            Welcome to SLUTBASS-- <span className="noWrap">Cunt is here to stay.</span> Hit the tour dates below and
+            come hang with me babes 💋
           </p>
         </section>
 
@@ -74,7 +75,7 @@ export default function HomePage() {
               allow="web-share"
               {...({ allowtransparency: 'true' } as Record<string, string>)}
               className="layloEmbed"
-              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
+              style={{ width: '100%', minWidth: '100%', maxWidth: '1000px' }}
               src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
             ></iframe>
           </div>
@@ -87,9 +88,11 @@ export default function HomePage() {
           </div>
           <div className="merchCard">
             <p className="merchCopy">
-              Fresh Luci merch lives here. Grab the pieces, then pull up to a show fully dressed for the chaos.
+              Fresh Luci merch lives here. Grab the pieces, then pull up to a show fully dressed (or not) for the
+              chaos.
             </p>
             <a href={merchHref} target="_blank" rel="noreferrer" className="merchCta">
+              <FaShoppingBag className="merchIcon" aria-hidden="true" />
               Shop Merch
             </a>
           </div>
@@ -233,6 +236,7 @@ export default function HomePage() {
             display: inline-flex;
             align-items: center;
             justify-content: center;
+            gap: 0.55rem;
             min-height: 48px;
             padding: 0.75rem 1rem;
             border: 2px solid #ff8fca;
@@ -253,6 +257,11 @@ export default function HomePage() {
 
           .merchCta:active {
             transform: translateY(0);
+          }
+
+          .merchIcon {
+            font-size: 0.95rem;
+            flex-shrink: 0;
           }
 
           .mediaEmoji {
@@ -312,7 +321,7 @@ export default function HomePage() {
             display: block;
             border: 0;
             background: transparent;
-            min-height: 620px;
+            min-height: 720px;
           }
         `}</style>
       </section>

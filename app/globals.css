@@ -122,7 +122,6 @@ body {
 }
 
 .tourPanel h2 { font-family: "Times New Roman", Times, serif; font-size: 1rem; margin: 0 0 0.6rem; color:#000; }
-.layloEmbed { min-height: 140px; border: 2px inset #ffc8e4; background: #fff; }
 
 .footer { padding: 0.8rem; display:flex; justify-content: center; align-items:center; background:#ffcaea; }
 .footerLogo { height: 32px; width:auto; }
