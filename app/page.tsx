@@ -39,6 +39,7 @@ const merchHref = 'https://luciofficial.myshopify.com/';
 export default function HomePage() {
   return (
     <main className="shell">
+      <div className="homePageStack">
         <nav className="desktopHomeNav win98Box" aria-label="Homepage navigation">
           <div className="desktopHomeNavRow">
             {navItems.map(({ label, href }) => {
@@ -61,7 +62,7 @@ export default function HomePage() {
           </div>
         </nav>
 
-      <section className="mobileWindow">
+        <section className="mobileWindow">
         <header className="homeLogoSection win98Box h-[160px] sm:h-[190px] md:h-[220px] overflow-hidden">
           <Link href="/" className="logoWrap block w-full h-full" aria-label="Luci home">
             <img src="/Logo White.webp" alt="Luci logo" className="headerLogo w-full h-full object-contain p-3" />
@@ -173,6 +174,13 @@ export default function HomePage() {
             justify-content: center;
             padding: 0;
             overflow: hidden;
+          }
+
+          .homePageStack {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
           }
 
           .homeLogoSection :global(.logoWrap) {
@@ -397,7 +405,8 @@ export default function HomePage() {
             }
           }
         `}</style>
-      </section>
+        </section>
+      </div>
     </main>
   );
 }
