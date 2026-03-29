@@ -55,7 +55,7 @@ export default function HomePage() {
             <span>about.txt</span>
           </div>
           <p>
-            Welcome to SLUTBASS-- <span className="noWrap">Cunt is here to stay.</span> Hit the tour dates below and
+            Welcome to SLUTBASS- <span className="noWrap">Cunt is here to stay.</span> Hit the tour dates below and
             come hang with me babes 💋
           </p>
         </section>
@@ -75,8 +75,8 @@ export default function HomePage() {
               allow="web-share"
               {...({ allowtransparency: 'true' } as Record<string, string>)}
               className="layloEmbed"
-              style={{ width: '100%', minWidth: '100%', maxWidth: '1000px' }}
-              src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
+              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
+              src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=c557a4&minimal=false&theme=light"
             ></iframe>
           </div>
         </section>
@@ -88,7 +88,7 @@ export default function HomePage() {
           </div>
           <div className="merchCard">
             <p className="merchCopy">
-              Fresh Luci merch lives here. Grab the pieces, then pull up to a show fully dressed (or not) for the
+              Fresh Luci merch lives here. Grab the pieces, then pull up to the show fully dressed (or not) for the
               chaos.
             </p>
             <a href={merchHref} target="_blank" rel="noreferrer" className="merchCta">
@@ -321,7 +321,7 @@ export default function HomePage() {
             display: block;
             border: 0;
             background: transparent;
-            min-height: 720px;
+            min-height: 760px;
           }
         `}</style>
       </section>
