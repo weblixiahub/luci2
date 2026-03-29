@@ -32,6 +32,8 @@ const watchLinks: MediaItem[] = [
   { name: 'Podcast', href: 'https://linktr.ee/kissesandchaospodcast', emoji: '💋' }
 ];
 
+const merchHref = 'https://luciofficial.myshopify.com/';
+
 export default function HomePage() {
   return (
     <main className="shell">
@@ -44,6 +46,53 @@ export default function HomePage() {
 
         <section className="heroWrap win98Box">
           <img src="/Hero.webp" alt="Luci hero" className="hero" />
+        </section>
+
+        <section className="bioPanel win98Box">
+          <div className="mediaPlayerHeader">
+            <span className="mediaPlayerDot" aria-hidden="true" />
+            <span>about.txt</span>
+          </div>
+          <p>
+            Welcome to Luci. <span className="noWrap">Cunt is here to stay.</span> Hit the tour dates below and come
+            get loud with us.
+          </p>
+        </section>
+
+        <section className="tourPanel win98Box" id="tour">
+          <div className="mediaPlayerHeader">
+            <span className="mediaPlayerDot" aria-hidden="true" />
+            <span>Tour</span>
+          </div>
+          <Script src="https://embed.laylo.com/laylo-sdk.js" strategy="afterInteractive"></Script>
+          <div className="layloClip">
+            <iframe
+              id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887"
+              title="Luci Tour Dates"
+              frameBorder="0"
+              scrolling="no"
+              allow="web-share"
+              {...({ allowtransparency: 'true' } as Record<string, string>)}
+              className="layloEmbed"
+              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
+              src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
+            ></iframe>
+          </div>
+        </section>
+
+        <section className="merchPanel win98Box">
+          <div className="mediaPlayerHeader">
+            <span className="mediaPlayerDot" aria-hidden="true" />
+            <span>Merch</span>
+          </div>
+          <div className="merchCard">
+            <p className="merchCopy">
+              Fresh Luci merch lives here. Grab the pieces, then pull up to a show fully dressed for the chaos.
+            </p>
+            <a href={merchHref} target="_blank" rel="noreferrer" className="merchCta">
+              Shop Merch
+            </a>
+          </div>
         </section>
 
         <section className="mediaPanel win98Box listenPanel">
@@ -61,18 +110,6 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="bioPanel win98Box">
-          <div className="mediaPlayerHeader">
-            <span className="mediaPlayerDot" aria-hidden="true" />
-            <span>about.txt</span>
-          </div>
-          <p>
-            Welcome to SLUTBASS — an experimental bass + hyperpop project that’s flirty, bratty, and loud club music
-            made to make the crowd jump, move, and feel hot as f*ck! This isn’t an era.{' '}
-            <span className="noWrap">Cunt is here to stay.</span>
-          </p>
-        </section>
-
         <section className="mediaPanel win98Box">
           <div className="mediaPlayerHeader">
             <span className="mediaPlayerDot" aria-hidden="true" />
@@ -85,30 +122,6 @@ export default function HomePage() {
                 {name}
               </a>
             ))}
-          </div>
-        </section>
-
-        <section className="tourPanel win98Box" id="tour">
-          <div className="mediaPlayerHeader">
-            <span className="mediaPlayerDot" aria-hidden="true" />
-            <span>Tour</span>
-          </div>
-          <Script
-            src="https://embed.laylo.com/laylo-sdk.js"
-            strategy="afterInteractive"
-          ></Script>
-          <div className="layloClip">
-            <iframe
-              id="laylo-drop-82f3fe79-59b6-4a1f-badb-91dfb0070887"
-              title="Luci Tour Dates"
-              frameBorder="0"
-              scrolling="no"
-              allow="web-share"
-              {...({ allowtransparency: 'true' } as Record<string, string>)}
-              className="layloEmbed"
-              style={{ width: '1px', minWidth: '100%', maxWidth: '1000px' }}
-              src="https://embed.laylo.com?dropId=82f3fe79-59b6-4a1f-badb-91dfb0070887&color=ff2da6&minimal=false&theme=light"
-            ></iframe>
           </div>
         </section>
 
@@ -199,6 +212,47 @@ export default function HomePage() {
 
           .noWrap {
             white-space: nowrap;
+          }
+
+          .merchCard {
+            display: grid;
+            gap: 0.9rem;
+            padding: 0.25rem 0.1rem 0.1rem;
+          }
+
+          .merchCopy {
+            margin: 0;
+            color: #000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 0.88rem;
+            line-height: 1.45;
+            font-weight: 700;
+          }
+
+          .merchCta {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            padding: 0.75rem 1rem;
+            border: 2px solid #ff8fca;
+            background: linear-gradient(180deg, #ffe9f7 0%, #ffc6e7 100%);
+            box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #d768a9;
+            color: #000;
+            text-decoration: none;
+            font-family: "Courier New", monospace;
+            font-size: 0.95rem;
+            font-weight: 700;
+            transition: transform 0.15s ease, background 0.15s ease;
+          }
+
+          .merchCta:hover {
+            transform: translateY(-1px);
+            background: linear-gradient(180deg, #fff2fb 0%, #ffd6ef 100%);
+          }
+
+          .merchCta:active {
+            transform: translateY(0);
           }
 
           .mediaEmoji {
