@@ -176,13 +176,6 @@ export default function HomePage() {
             overflow: hidden;
           }
 
-          .homePageStack {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-          }
-
           .homeLogoSection :global(.logoWrap) {
             display: flex;
             align-items: center;
@@ -200,51 +193,6 @@ export default function HomePage() {
             display: block;
             mix-blend-mode: multiply;
             filter: invert(1);
-          }
-
-          .desktopHomeNav {
-            display: none;
-            width: min(100%, 1100px);
-            margin: 0 auto 0.75rem;
-          }
-
-          .desktopHomeNavRow {
-            display: flex;
-            justify-content: space-between;
-            gap: 0.4rem;
-            overflow-x: auto;
-            padding: 0.25rem;
-            scrollbar-width: none;
-          }
-
-          .desktopHomeNavRow::-webkit-scrollbar {
-            display: none;
-          }
-
-          .desktopHomeNavLink {
-            flex: 1 1 0;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 42px;
-            padding: 0.65rem 0.55rem;
-            border: 2px solid;
-            border-color: #ffe6f5 #d65da2 #d65da2 #fff7fd;
-            background: linear-gradient(180deg, #fff0fa 0%, #ffcbe9 100%);
-            box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #e066ab;
-            color: #000;
-            text-decoration: none;
-            font-family: "Courier New", monospace;
-            font-size: 0.74rem;
-            font-weight: 700;
-            line-height: 1.1;
-            text-align: center;
-            transition: transform 0.15s ease, background 0.15s ease;
-          }
-
-          .desktopHomeNavLink:hover {
-            transform: translateY(-1px);
-            background: linear-gradient(180deg, #fff5fc 0%, #ffd7ef 100%);
           }
 
           .mediaIcon {
@@ -399,11 +347,6 @@ export default function HomePage() {
             min-height: 460px;
           }
 
-          @media (min-width: 920px) {
-            .desktopHomeNav {
-              display: block;
-            }
-          }
         `}</style>
         </section>
       </div>
