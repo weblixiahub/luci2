@@ -39,7 +39,6 @@ const merchHref = 'https://luciofficial.myshopify.com/';
 export default function HomePage() {
   return (
     <main className="shell">
-      <section className="mobileWindow">
         <nav className="desktopHomeNav win98Box" aria-label="Homepage navigation">
           <div className="desktopHomeNavRow">
             {navItems.map(({ label, href }) => {
@@ -62,6 +61,7 @@ export default function HomePage() {
           </div>
         </nav>
 
+      <section className="mobileWindow">
         <header className="homeLogoSection win98Box h-[160px] sm:h-[190px] md:h-[220px] overflow-hidden">
           <Link href="/" className="logoWrap block w-full h-full" aria-label="Luci home">
             <img src="/Logo White.webp" alt="Luci logo" className="headerLogo w-full h-full object-contain p-3" />
@@ -196,13 +196,16 @@ export default function HomePage() {
 
           .desktopHomeNav {
             display: none;
+            width: min(100%, 1100px);
+            margin: 0 auto 0.75rem;
           }
 
           .desktopHomeNavRow {
             display: flex;
-            gap: 0.5rem;
+            justify-content: space-between;
+            gap: 0.4rem;
             overflow-x: auto;
-            padding: 0.2rem;
+            padding: 0.25rem;
             scrollbar-width: none;
           }
 
@@ -211,12 +214,12 @@ export default function HomePage() {
           }
 
           .desktopHomeNavLink {
-            flex: 0 0 auto;
+            flex: 1 1 0;
             display: inline-flex;
             align-items: center;
             justify-content: center;
             min-height: 42px;
-            padding: 0.65rem 0.9rem;
+            padding: 0.65rem 0.55rem;
             border: 2px solid;
             border-color: #ffe6f5 #d65da2 #d65da2 #fff7fd;
             background: linear-gradient(180deg, #fff0fa 0%, #ffcbe9 100%);
@@ -224,9 +227,10 @@ export default function HomePage() {
             color: #000;
             text-decoration: none;
             font-family: "Courier New", monospace;
-            font-size: 0.8rem;
+            font-size: 0.74rem;
             font-weight: 700;
-            white-space: nowrap;
+            line-height: 1.1;
+            text-align: center;
             transition: transform 0.15s ease, background 0.15s ease;
           }
 
