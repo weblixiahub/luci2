@@ -88,8 +88,7 @@ export default function HomePage() {
           </div>
           <div className="merchCard">
             <p className="merchCopy">
-              Fresh Luci merch lives here. Grab the pieces, then pull up to the show fully dressed (or not) for the
-              chaos.
+              Fresh Luci merch lives here. Grab the pieces, then pull up to the show fully dressed (or not).
             </p>
             <a href={merchHref} target="_blank" rel="noreferrer" className="merchCta">
               <FaShoppingBag className="merchIcon" aria-hidden="true" />
@@ -321,7 +320,7 @@ export default function HomePage() {
             display: block;
             border: 0;
             background: transparent;
-            min-height: 760px;
+            min-height: 620px;
           }
         `}</style>
       </section>
