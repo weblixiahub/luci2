@@ -263,6 +263,10 @@ body {
 .linkGroup h2 { font-family:"Times New Roman", Times, serif; font-size:0.75rem; color:#000; }
 
 @media (min-width: 920px) {
+  .homeDesktopHamburger {
+    display: none;
+  }
+
   body {
     background-size: cover;
     background-repeat: no-repeat;

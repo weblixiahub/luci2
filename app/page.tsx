@@ -5,6 +5,7 @@ import Script from 'next/script';
 import type { IconType } from 'react-icons';
 import { FaShoppingBag } from 'react-icons/fa';
 import { SiApplemusic, SiDiscord, SiFacebook, SiInstagram, SiSoundcloud, SiSpotify, SiTiktok, SiTwitch, SiYoutube } from 'react-icons/si';
+import { navItems } from '../components/nav-items';
 
 type MediaItem = {
   name: string;
@@ -39,6 +40,28 @@ export default function HomePage() {
   return (
     <main className="shell">
       <section className="mobileWindow">
+        <nav className="desktopHomeNav win98Box" aria-label="Homepage navigation">
+          <div className="desktopHomeNavRow">
+            {navItems.map(({ label, href }) => {
+              const isExternal = href.startsWith('http');
+
+              if (isExternal) {
+                return (
+                  <a key={label} href={href} target="_blank" rel="noreferrer" className="desktopHomeNavLink">
+                    {label}
+                  </a>
+                );
+              }
+
+              return (
+                <Link key={label} href={href} className="desktopHomeNavLink">
+                  {label}
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
+
         <header className="homeLogoSection win98Box h-[160px] sm:h-[190px] md:h-[220px] overflow-hidden">
           <Link href="/" className="logoWrap block w-full h-full" aria-label="Luci home">
             <img src="/Logo White.webp" alt="Luci logo" className="headerLogo w-full h-full object-contain p-3" />
@@ -169,6 +192,47 @@ export default function HomePage() {
             display: block;
             mix-blend-mode: multiply;
             filter: invert(1);
+          }
+
+          .desktopHomeNav {
+            display: none;
+          }
+
+          .desktopHomeNavRow {
+            display: flex;
+            gap: 0.5rem;
+            overflow-x: auto;
+            padding: 0.2rem;
+            scrollbar-width: none;
+          }
+
+          .desktopHomeNavRow::-webkit-scrollbar {
+            display: none;
+          }
+
+          .desktopHomeNavLink {
+            flex: 0 0 auto;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 42px;
+            padding: 0.65rem 0.9rem;
+            border: 2px solid;
+            border-color: #ffe6f5 #d65da2 #d65da2 #fff7fd;
+            background: linear-gradient(180deg, #fff0fa 0%, #ffcbe9 100%);
+            box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #e066ab;
+            color: #000;
+            text-decoration: none;
+            font-family: "Courier New", monospace;
+            font-size: 0.8rem;
+            font-weight: 700;
+            white-space: nowrap;
+            transition: transform 0.15s ease, background 0.15s ease;
+          }
+
+          .desktopHomeNavLink:hover {
+            transform: translateY(-1px);
+            background: linear-gradient(180deg, #fff5fc 0%, #ffd7ef 100%);
           }
 
           .mediaIcon {
@@ -320,7 +384,13 @@ export default function HomePage() {
             display: block;
             border: 0;
             background: transparent;
-            min-height: 620px;
+            min-height: 460px;
+          }
+
+          @media (min-width: 920px) {
+            .desktopHomeNav {
+              display: block;
+            }
           }
         `}</style>
       </section>

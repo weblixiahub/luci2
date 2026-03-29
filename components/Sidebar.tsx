@@ -1,22 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import { navItems } from './nav-items';
 
 type SidebarProps = {
   open: boolean;
   close: () => void;
 };
-
-const navItems = [
-  ['Merch', 'https://luciofficial.myshopify.com/'],
-  ['Show Tickets', 'https://laylo.com/luci/m/WafCOy'],
-  ['VIP Upgrades', 'https://luciofficial.myshopify.com/products/luci-vip-package'],
-  ['Exclusive Content', 'https://www.passes.com/luci_officialxo'],
-  ['Text Me Hotties <3', 'https://laylo.com/luci'],
-  ['Email Me', '/email-me'],
-  ['Book Me', '/book-me'],
-  ['Links', '/links']
-];
 
 export default function Sidebar({ open, close }: SidebarProps) {
   return (
@@ -33,7 +23,7 @@ export default function Sidebar({ open, close }: SidebarProps) {
             </button>
           </div>
           <nav>
-            {navItems.map(([label, href]) => (
+            {navItems.map(({ label, href }) => (
               <Link
                 key={label}
                 href={href}

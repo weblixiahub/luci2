@@ -1,5 +1,6 @@
 'use client';
 
+import { usePathname } from 'next/navigation';
 import { createContext, useContext, useMemo, useState } from 'react';
 import Sidebar from './Sidebar';
 
@@ -21,6 +22,7 @@ export function useAppShell() {
 
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const pathname = usePathname();
 
   const value = useMemo(
     () => ({
@@ -34,7 +36,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <AppShellContext.Provider value={value}>
       <button
-        className={`hamburger viewportHamburger fixed top-4 right-4 ${sidebarOpen ? 'invisible' : ''}`}
+        className={`hamburger viewportHamburger fixed top-4 right-4 ${pathname === '/' ? 'homeDesktopHamburger' : ''} ${sidebarOpen ? 'invisible' : ''}`}
         onClick={value.openSidebar}
         aria-label="Open menu"
         aria-expanded={sidebarOpen}
