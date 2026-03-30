@@ -319,6 +319,17 @@ body {
     max-width: 700px;
   }
 
+  .homeContentWindow .heroWrap {
+    aspect-ratio: 1 / 0.74;
+  }
+
+  .homeContentWindow .hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+  }
+
   .homeContentWindow .win98Box {
     margin: 0.35rem;
   }
