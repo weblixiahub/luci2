@@ -275,6 +275,12 @@ body {
   margin: 0 auto 0.75rem;
 }
 
+@media (min-width: 920px) {
+  .hideHamburgerDesktop {
+    display: none;
+  }
+}
+
 .desktopHomeNavRow {
   display: flex;
   justify-content: space-between;

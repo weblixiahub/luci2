@@ -23,6 +23,7 @@ export function useAppShell() {
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const pathname = usePathname();
+  const hideHamburgerOnDesktop = pathname === '/email-me' || pathname === '/book-me';
 
   const value = useMemo(
     () => ({
@@ -36,7 +37,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <AppShellContext.Provider value={value}>
       <button
-        className={`hamburger viewportHamburger fixed top-4 right-4 ${pathname === '/' ? 'homeDesktopHamburger' : ''} ${sidebarOpen ? 'invisible' : ''}`}
+        className={`hamburger viewportHamburger fixed top-4 right-4 ${pathname === '/' ? 'homeDesktopHamburger' : ''} ${hideHamburgerOnDesktop ? 'hideHamburgerDesktop' : ''} ${sidebarOpen ? 'invisible' : ''}`}
         onClick={value.openSidebar}
         aria-label="Open menu"
         aria-expanded={sidebarOpen}
