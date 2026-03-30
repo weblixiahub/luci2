@@ -208,6 +208,7 @@ export default function EmailMePage() {
           @media (min-width: 920px) {
             .emailWindow {
               min-height: calc(100vh - 3rem);
+              justify-content: flex-start;
             }
 
             .homeLogoSection {
@@ -247,6 +248,7 @@ export default function EmailMePage() {
             }
 
             .footer {
+              margin-top: 0.35rem;
               margin-left: 0.5rem;
               margin-right: 0.5rem;
               margin-bottom: 0.45rem;
