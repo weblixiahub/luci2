@@ -211,58 +211,58 @@ export default function EmailMePage() {
             }
 
             .homeLogoSection {
-              height: 128px !important;
+              height: 112px !important;
             }
 
             .emailPanel,
             .contactPanel {
-              margin: 0.4rem;
+              margin: 0.3rem;
             }
 
             .emailPanel {
-              padding: 0.35rem;
+              padding: 0.28rem;
             }
 
             .emailPhoto {
-              height: 190px;
+              height: 150px;
               max-width: 100%;
             }
 
             .contactPanel {
-              padding: 0.5rem;
-              gap: 0.4rem;
+              padding: 0.42rem;
+              gap: 0.3rem;
             }
 
             .mediaPlayerHeader {
-              margin-bottom: 0.2rem;
-              font-size: 0.72rem;
-              padding: 0.24rem 0.4rem;
+              margin-bottom: 0.15rem;
+              font-size: 0.68rem;
+              padding: 0.22rem 0.38rem;
             }
 
             .contactBox {
-              min-height: 42px;
-              padding: 0.5rem 0.65rem;
+              min-height: 38px;
+              padding: 0.42rem 0.58rem;
             }
 
             .emailValue {
-              font-size: 0.88rem;
+              font-size: 0.82rem;
             }
 
             .footer {
               margin-top: auto;
-              margin-left: 0.5rem;
-              margin-right: 0.5rem;
-              margin-bottom: 0.35rem;
-              padding: 0.28rem;
+              margin-left: 0.3rem;
+              margin-right: 0.3rem;
+              margin-bottom: 0.3rem;
+              padding: 0.22rem;
             }
 
             .socials {
-              gap: 0.55rem;
+              gap: 0.45rem;
             }
 
             .socials a {
-              width: 40px;
-              max-width: 40px;
+              width: 36px;
+              max-width: 36px;
             }
           }
         `}</style>

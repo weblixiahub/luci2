@@ -213,60 +213,60 @@ export default function BookMePage() {
             }
 
             .homeLogoSection {
-              height: 128px !important;
+              height: 112px !important;
             }
 
             .bookPanel,
             .contactPanel {
-              margin: 0.4rem;
+              margin: 0.3rem;
             }
 
             .bookPanel {
-              padding: 0.35rem;
+              padding: 0.28rem;
             }
 
             .bookPhoto {
               max-width: 100%;
-              max-height: 185px;
+              max-height: 145px;
               object-fit: cover;
               object-position: center top;
             }
 
             .contactPanel {
-              padding: 0.5rem;
-              gap: 0.4rem;
+              padding: 0.42rem;
+              gap: 0.3rem;
             }
 
             .mediaPlayerHeader {
-              margin-bottom: 0.2rem;
-              font-size: 0.72rem;
-              padding: 0.24rem 0.4rem;
+              margin-bottom: 0.15rem;
+              font-size: 0.68rem;
+              padding: 0.22rem 0.38rem;
             }
 
             .contactBox {
-              min-height: 42px;
-              padding: 0.5rem 0.65rem;
+              min-height: 38px;
+              padding: 0.42rem 0.58rem;
             }
 
             .emailValue {
-              font-size: 0.88rem;
+              font-size: 0.82rem;
             }
 
             .footer {
               margin-top: auto;
-              margin-left: 0.5rem;
-              margin-right: 0.5rem;
-              margin-bottom: 0.35rem;
-              padding: 0.28rem;
+              margin-left: 0.3rem;
+              margin-right: 0.3rem;
+              margin-bottom: 0.3rem;
+              padding: 0.22rem;
             }
 
             .socials {
-              gap: 0.45rem;
+              gap: 0.35rem;
             }
 
             .socials a {
-              width: 40px;
-              max-width: 40px;
+              width: 36px;
+              max-width: 36px;
             }
           }
         `}</style>
