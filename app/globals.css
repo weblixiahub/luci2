@@ -87,8 +87,8 @@ body {
   transform: scale(0.96);
 }
 
-.heroWrap { padding: 0; overflow: hidden; }
-.hero { width: 100%; display: block; }
+.heroWrap { padding: 0; overflow: hidden; line-height: 0; }
+.hero { width: 100%; height: auto; display: block; }
 
 .bioPanel { padding: 1rem; }
 .bioPanel h1 { font-family: "Times New Roman", Times, serif; font-size: 1rem; color: #000; margin: 0 0 0.7rem; }
@@ -319,15 +319,9 @@ body {
     max-width: 700px;
   }
 
-  .homeContentWindow .heroWrap {
-    aspect-ratio: 1 / 0.74;
-  }
-
   .homeContentWindow .hero {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 22%;
+    height: auto;
   }
 
   .homeContentWindow .win98Box {
