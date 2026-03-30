@@ -87,11 +87,12 @@ export default function EmailMePage() {
             display: block;
             width: 100%;
             max-width: 420px;
-            height: clamp(260px, 62vw, 360px);
+            height: auto;
             margin: 0 auto;
             border: 2px inset #fff;
-            object-fit: cover;
-            object-position: center 70%;
+            background: #000;
+            object-fit: contain;
+            object-position: center;
           }
 
           .contactPanel {
