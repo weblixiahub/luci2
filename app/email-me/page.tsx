@@ -14,7 +14,7 @@ export default function EmailMePage() {
         </header>
 
         <section className="win98Box emailPanel">
-          <img src="/Milkshakes3.webp" alt="Email Luci" className="emailPhoto" />
+          <img src="/Milkshakes3-focus.webp" alt="Email Luci" className="emailPhoto" />
         </section>
 
         <section className="win98Box contactPanel">
@@ -86,12 +86,12 @@ export default function EmailMePage() {
           .emailPhoto {
             display: block;
             width: 100%;
-            max-width: 420px;
+            max-width: 360px;
             height: auto;
             margin: 0 auto;
             border: 2px inset #fff;
             background: #000;
-            object-fit: contain;
+            object-fit: cover;
             object-position: center;
           }
 
