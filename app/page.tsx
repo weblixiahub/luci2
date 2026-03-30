@@ -250,7 +250,7 @@ export default function HomePage() {
             margin: 0;
             color: #000;
             font-family: "Lucida Console", "Courier New", monospace;
-            font-size: 0.88rem;
+            font-size: 1rem;
             line-height: 1.45;
             font-weight: 700;
           }
@@ -344,7 +344,7 @@ export default function HomePage() {
             display: block;
             border: 0;
             background: transparent;
-            min-height: 460px;
+            min-height: 180px;
           }
 
         `}</style>
