@@ -227,7 +227,7 @@ export default function EmailMePage() {
             }
 
             .emailPhoto {
-              height: 150px;
+              width: min(100%, 320px);
               max-width: 100%;
             }
 
