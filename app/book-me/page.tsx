@@ -210,6 +210,7 @@ export default function BookMePage() {
           @media (min-width: 920px) {
             .bookWindow {
               min-height: calc(100vh - 3rem);
+              transform: none;
             }
 
             .homeLogoSection {
@@ -256,17 +257,16 @@ export default function BookMePage() {
               margin-left: 0.3rem;
               margin-right: 0.3rem;
               margin-bottom: 0.3rem;
-              padding: 0.18rem;
+              padding: 0.22rem;
             }
 
             .socials {
-              gap: 0.35rem;
-              padding: 0 0.2rem;
+              gap: 0.65rem;
             }
 
             .socials a {
-              width: 36px;
-              max-width: 36px;
+              width: 44px;
+              max-width: 44px;
             }
           }
         `}</style>
