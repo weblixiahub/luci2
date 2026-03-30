@@ -14,7 +14,7 @@ export default function EmailMePage() {
         </header>
 
         <section className="win98Box emailPanel">
-          <img src="/Milkshakes3-focus.webp" alt="Email Luci" className="emailPhoto" />
+          <img src="/Milkshakes3-tight.webp" alt="Email Luci" className="emailPhoto" />
         </section>
 
         <section className="win98Box contactPanel">
