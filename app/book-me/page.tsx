@@ -226,15 +226,14 @@ export default function BookMePage() {
             }
 
             .bookPhoto {
-              max-width: 100%;
-              max-height: 145px;
-              object-fit: cover;
-              object-position: center top;
+              width: 100%;
+              max-width: 420px;
+              height: auto;
             }
 
             .contactPanel {
-              padding: 0.42rem;
-              gap: 0.3rem;
+              padding: 0.55rem;
+              gap: 0.45rem;
             }
 
             .mediaPlayerHeader {
@@ -244,12 +243,12 @@ export default function BookMePage() {
             }
 
             .contactBox {
-              min-height: 38px;
-              padding: 0.42rem 0.58rem;
+              min-height: 52px;
+              padding: 0.7rem 0.85rem;
             }
 
             .emailValue {
-              font-size: 0.82rem;
+              font-size: 0.94rem;
             }
 
             .footer {
@@ -261,12 +260,12 @@ export default function BookMePage() {
             }
 
             .socials {
-              gap: 0.35rem;
+              gap: 0.65rem;
             }
 
             .socials a {
-              width: 36px;
-              max-width: 36px;
+              width: 44px;
+              max-width: 44px;
             }
           }
         `}</style>
