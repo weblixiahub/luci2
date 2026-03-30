@@ -70,7 +70,7 @@ export default function HomePage() {
         </header>
 
         <section className="heroWrap win98Box">
-          <img src="/Hero.webp" alt="Luci hero" className="hero" />
+          <img src="/Hero-home-optimized.webp" alt="Luci hero" className="hero" />
         </section>
 
         <section className="bioPanel win98Box">
