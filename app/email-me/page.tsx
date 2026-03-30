@@ -54,6 +54,10 @@ export default function EmailMePage() {
           .emailPanel {
             margin: 0.75rem;
             padding: 0.6rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 0;
           }
 
           .homeLogoSection {
@@ -85,14 +89,12 @@ export default function EmailMePage() {
 
           .emailPhoto {
             display: block;
-            width: 100%;
-            max-width: 360px;
+            width: min(100%, 320px);
+            max-width: 100%;
             height: auto;
             margin: 0 auto;
             border: 2px inset #fff;
             background: #000;
-            object-fit: cover;
-            object-position: center;
           }
 
           .contactPanel {
