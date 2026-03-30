@@ -208,60 +208,61 @@ export default function EmailMePage() {
           @media (min-width: 920px) {
             .emailWindow {
               min-height: calc(100vh - 3rem);
-              justify-content: flex-start;
             }
 
             .homeLogoSection {
-              height: 148px !important;
+              height: 128px !important;
             }
 
             .emailPanel,
             .contactPanel {
-              margin: 0.5rem;
+              margin: 0.4rem;
             }
 
             .emailPanel {
-              padding: 0.45rem;
+              padding: 0.35rem;
             }
 
             .emailPhoto {
-              height: 220px;
+              height: 190px;
               max-width: 100%;
             }
 
             .contactPanel {
-              padding: 0.6rem;
-              gap: 0.5rem;
+              padding: 0.5rem;
+              gap: 0.4rem;
             }
 
             .mediaPlayerHeader {
               margin-bottom: 0.2rem;
+              font-size: 0.72rem;
+              padding: 0.24rem 0.4rem;
             }
 
             .contactBox {
-              min-height: 48px;
-              padding: 0.65rem;
+              min-height: 42px;
+              padding: 0.5rem 0.65rem;
             }
 
             .emailValue {
-              font-size: 0.95rem;
+              font-size: 0.88rem;
             }
 
             .footer {
-              margin-top: 0.35rem;
+              margin-top: auto;
               margin-left: 0.5rem;
               margin-right: 0.5rem;
-              margin-bottom: 0.45rem;
-              padding: 0.35rem;
+              margin-bottom: 0.35rem;
+              padding: 0.28rem;
             }
 
             .socials {
-              gap: 0.7rem;
+              gap: 0.55rem;
             }
 
             .socials a {
-              width: 44px;
-              max-width: 44px;
+              width: 40px;
+              max-width: 40px;
             }
           }
         `}</style>
